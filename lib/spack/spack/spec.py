@@ -113,7 +113,7 @@ import spack.store
 import spack.compilers as compilers
 import spack.error
 import spack.parse
-from spack.build_environment import get_path_from_module, load_module
+from spack.util.module_cmd import get_path_from_module, load_module
 from spack.util.prefix import Prefix
 from spack.util.string import *
 import spack.util.spack_yaml as syaml
